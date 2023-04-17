@@ -51,6 +51,7 @@ public class AviMetadataReader
             inputStream.close();
         }
         new FileSystemMetadataReader().read(file, metadata);
+        // Hago una mejora que flipas
         return metadata;
     }
 
